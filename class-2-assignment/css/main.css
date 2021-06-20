@@ -1,0 +1,88 @@
+body{
+	box-sizing: border-box;
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+}
+.nav{
+	display: block;
+	width: 100%;
+}
+
+.nav-links-home{
+	display: block;
+	margin: 0 auto;
+	width: 60%;
+}
+.nav-links-list{
+	list-style: none;
+	display: flex;
+	justify-content: space-around;
+}
+.profile{
+	display: block;
+	margin: 0 auto;
+	padding: 20px;
+	width: 70%;
+	text-align: center;
+}
+.photo-grid{
+	width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.photo-holder{
+	flex-basis: 30%;
+    background: red;
+    /* padding: 20px; */
+    height: 300px;
+}
+
+.indi-photo{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+.about-main{
+	text-align: center;
+
+}
+.about-photo{
+
+}
+.about-photo-holder{
+	    width: fit-content;
+    margin: 0 auto;
+    height: 30vh;
+}
+.about-image{
+	height: 100%;
+    display: block;
+}
+
+.about-description{
+	padding: 20px 30px;	
+}
+.input{
+	margin-top: 10px;
+	 flex-basis: 70%;
+}
+.label{
+	margin-top: 10px;
+	flex-basis: 20%;
+}
+.form-holder{
+	width: 70%;
+    margin: 0 auto;
+}
+.contact-main{
+	padding-top: 20vh;
+    width: 100%;
+}
+.contact-form{
+	    display: flex;
+    flex-wrap: wrap;
+}
